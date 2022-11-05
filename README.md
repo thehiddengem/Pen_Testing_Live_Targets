@@ -19,22 +19,22 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection
 
-Description:
+Description: Direct SQL injection to the URL.
 
 <img src="blue-vuln1.gif">
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR
 
-Description:
+Description: A indirect object refrence allows you to access and see details about sales people that should be hidden
 
 <img src="red-vuln1.gif">
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: CROSS SITE SCRIPTING XXS
 
-Description:
+Description: We are able to insert a malicous script to cause a XSS attack.
 
-<img src="blue-vuln1.gif">
+<img src="green-vuln1.gif">
